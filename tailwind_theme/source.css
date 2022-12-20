@@ -1,0 +1,43 @@
+/* Pinegrow generated Design Panel Init Begin */
+
+    /* Pinegrow generated Design Panel Init End */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply text-2xl;
+	}
+	h2 {
+		@apply text-xl;
+	}
+}
+
+@layer components {
+	.btn-blue {
+		@apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+	}
+}
+
+@layer utilities {
+	.filter-none {
+		filter: none;
+	}
+	.filter-grayscale {
+		filter: grayscale(100%);
+	}
+}
+
+/* Pinegrow generated Design Panel Extra Rules Begin */
+
+h1 {
+    @apply font-serif;
+}                    
+body, html {
+    min-height: 100vh;
+}
+
+    /* Pinegrow generated Design Panel Extra Rules End */
